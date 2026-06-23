@@ -1,3 +1,9 @@
+import { SensitivityConverter } from "@/components/SensitivityConverter";
+
 export default function Home() {
-  return <></>;
+  return (
+    <main className="min-h-screen bg-background">
+      <SensitivityConverter />
+    </main>
+  );
 }
